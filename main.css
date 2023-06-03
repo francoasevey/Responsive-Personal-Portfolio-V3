@@ -26,3 +26,14 @@
     0 0 100px rgba(18,247,255,0.3),
     0 0 120px rgba(18,247,255,0.3);
 }
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
