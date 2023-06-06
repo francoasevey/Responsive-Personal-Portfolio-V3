@@ -465,3 +465,35 @@ a.btn:nth-child(2)::before{
         border-radius: 69% 31% 66% 34% / 21% 30% 70% 79%;
     }
 }
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 72%;
+    }
+}
+@keyframes figma{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 62%;
+    }
+}
