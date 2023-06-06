@@ -312,6 +312,18 @@ a.btn:nth-child(2)::before{
     z-index: 100;
     animation: morph 6s linear infinite;
 }
+.info-about1{
+    left: 10%;
+    top: 34%;
+}
+.info-about2{
+    left: 66%;
+    top: 15%;
+}
+.info-about3{
+    left: 61%;
+    top: 70%;
+}
 
 @keyframes morph{
     0%,
