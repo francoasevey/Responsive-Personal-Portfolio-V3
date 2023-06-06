@@ -361,6 +361,21 @@ a.btn:nth-child(2)::before{
     transition: transform .4s;
     border-radius: 10px;
 }
+.service-btn{
+    width: auto;
+    justify-content: center;
+}
+.service-box:hover{
+    transform: translateY(-.7rem);
+}
+.service-icon{
+    border: 2px solid var(--hover-color);
+    padding: 2rem;
+    background: var(--bg-color);
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+}
 @keyframes morph{
     0%,
     100%{
