@@ -374,7 +374,16 @@ a.btn:nth-child(2)::before{
     background: var(--bg-color);
     display: flex;
     align-items: center;
-    font-size: 4rem;
+    font-size: 3rem;
+    border-radius: 50%;
+    position: relative;
+    color: var(--hover-color);
+    box-shadow: var(--neon-box-shadow);
+    outline: 3px solid var(--bg-color);
+}
+.service-box{
+    margin-top: 10px;
+    font-size: 1.5rem;
 }
 @keyframes morph{
     0%,
