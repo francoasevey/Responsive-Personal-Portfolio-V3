@@ -43,6 +43,11 @@ body{
     color: var(--text-color);
 }
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 1px solid transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -75,6 +80,9 @@ span{
     0 0 80px rgba(18, 247, 255, 0.6),
     0 0 100px rgba(18, 247, 255, 0.6),
     0 0 120px rgba(18, 247, 255, 0.6);;
+}
+.navlist a.active{
+    color: var(--hover-color);
 }
 #menu-icon{
     font-size: 1.8rem;
