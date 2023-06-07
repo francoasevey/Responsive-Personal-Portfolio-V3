@@ -54,3 +54,5 @@ circles.forEach(elem=>{
         pointsMarked[i].classList.add('marked')
     }
 })
+
+const mixer = mixitup('.portfolio-gallery');

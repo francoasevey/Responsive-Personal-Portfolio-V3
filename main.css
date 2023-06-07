@@ -244,7 +244,7 @@ a.btn:nth-child(2)::before{
 }
 .img-box img{
     width: 100%;
-    max-width: 350px;
+    max-width: 450px;
     height: auto;
 }
 .liquid-shape{
