@@ -71,9 +71,13 @@ span{
     display: flex;
 }
 .navlist a{
+    display: inline-block;
     color: var(--text-color);
     font-weight: 500;
     padding: 10px 20px;
+    animation: slideAnimation 1s ease forwards;
+    animation-delay: calc(.3s * var(--i));
+    opacity: 0;
 }
 .navlist a:hover{
     color: var(--hover-color);
@@ -522,7 +526,7 @@ section{
     margin: 2rem;
     text-align: center;
 }
-.fillter-buttons .btn{
+.fillter-buttons .button{
     background: none;
     outline: none;
     border: none;
@@ -533,7 +537,7 @@ section{
     margin-left: 1.3rem;
     color: var(--text-color);
 }
-.fillter-buttons .btn:hover{
+.fillter-buttons .button:hover{
     color: var(--hover-color);
 }
 .portfolio-gallery{
@@ -739,6 +743,16 @@ footer a i{
         box-shadow: var(--neon-box-shadow);
     }
 }
+@keyframes slideAnimation{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 @media(max-width:991px){
     header,
     header.sticky{
@@ -825,7 +839,7 @@ footer a i{
     footer p{
         font-size: .6rem;
     }
-    .fillter-buttons .btn{
+    .fillter-buttons .button{
         font-size: .8rem;
     }
     .img-about img{
